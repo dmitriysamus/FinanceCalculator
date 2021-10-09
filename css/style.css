@@ -3,7 +3,6 @@ font-family: sans-serif;
 }
 
 h2 {
-font-family: serif;
 font-size: 60px;
 font-weight: bold
 }
@@ -22,8 +21,9 @@ font-size: 28px;
 }
 
 hr {
-width: 47%;
+width: 80%;
 margin: 0 0 0 0;
+margin-left:5%;
 }
 
 #button {
