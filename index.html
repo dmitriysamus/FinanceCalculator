@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Финансовый калькулятор</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+<h2>Калькулятор доходности вклада</h2>
+<br>
+<form>
+    <table>
+        <tr>
+            <td>Сумма на момент открытия</td>
+            <td><input id="sum" type="text" required size=8></td>
+        </tr>
+        <tr>
+            <td>Процентная ставка</td>
+            <td><input id="rate" type="text" required size=8></td>
+        </tr>
+        <tr>
+            <td>Количество лет</td>
+            <td><input id="years" type="text" required size=8></td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <dev>Итоговая сумма</dev>
+    <input id="result" type=text size=8 readonly>
+    <input id="button" type="button" value=" Посчитать " onclick="form.result.value = onButtonClicked()">
+
+</form>
+</body>
+
+</html>

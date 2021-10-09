@@ -1,0 +1,30 @@
+* {
+font-family: sans-serif;
+}
+
+h2 {
+font-family: serif;
+font-size: 60px;
+font-weight: bold
+}
+
+table, dev {
+font-size: 28px;
+}
+
+th {
+text-align: left;
+font-weight: normal
+}
+
+input {
+font-size: 28px;
+}
+
+hr {
+width: 70%;
+}
+
+#button {
+margin-left:15%;
+}
